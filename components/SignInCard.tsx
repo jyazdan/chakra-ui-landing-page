@@ -37,11 +37,11 @@ export default function SignInCard() {
           <Stack spacing={4}>
             <FormControl id="email">
               <FormLabel>Email address</FormLabel>
-              <Input type="email" />
+              <Input focusBorderColor="green.400" type="email" />
             </FormControl>
             <FormControl id="password">
               <FormLabel>Password</FormLabel>
-              <Input type="password" />
+              <Input focusBorderColor="green.400" type="password" />
             </FormControl>
             <Stack spacing={10}>
               <Stack
@@ -49,7 +49,7 @@ export default function SignInCard() {
                 align={"start"}
                 justify={"space-between"}
               >
-                <Checkbox>Remember me</Checkbox>
+                <Checkbox colorScheme="green" defaultChecked>Remember me</Checkbox>
                 <Link color={"blue.400"}>Forgot password?</Link>
               </Stack>
               <Button

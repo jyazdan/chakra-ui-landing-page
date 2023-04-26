@@ -47,24 +47,24 @@ export default function SignupCard() {
               <Box>
                 <FormControl id="firstName" isRequired>
                   <FormLabel>First Name</FormLabel>
-                  <Input type="text" />
+                  <Input focusBorderColor="green.400" type="text" />
                 </FormControl>
               </Box>
               <Box>
                 <FormControl id="lastName">
                   <FormLabel>Last Name</FormLabel>
-                  <Input type="text" />
+                  <Input focusBorderColor="green.400" type="text" />
                 </FormControl>
               </Box>
             </HStack>
             <FormControl id="email" isRequired>
               <FormLabel>Email address</FormLabel>
-              <Input type="email" />
+              <Input focusBorderColor="green.400" type="email" />
             </FormControl>
             <FormControl id="password" isRequired>
               <FormLabel>Password</FormLabel>
               <InputGroup>
-                <Input type={showPassword ? "text" : "password"} />
+                <Input focusBorderColor="green.400" type={showPassword ? "text" : "password"} />
                 <InputRightElement h={"full"}>
                   <Button
                     variant={"ghost"}
